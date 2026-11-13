@@ -2,28 +2,28 @@
 class Ddbd < Formula
   desc "Lightweight schemaless record database server"
   homepage "https://ddbd.skapi.com"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://cdn.broadwayinc.com/get/ddbd/0.2.0/ddbd-0.2.0-macos-aarch64.tar.gz"
-      sha256 "aa84549bdf861d2dce25429815f4ff010a836c431d106245e088d33f87b7d33c"
+      url "https://cdn.broadwayinc.com/get/ddbd/0.3.0/ddbd-0.3.0-macos-aarch64.tar.gz"
+      sha256 "b44bf2da624e11f0e17f0bc85feda13b15a02b6168cf864ed353be09d876308a"
     end
     on_intel do
-      url "https://cdn.broadwayinc.com/get/ddbd/0.2.0/ddbd-0.2.0-macos-x86_64.tar.gz"
-      sha256 "118103c8f614fa4a3a9d705a527a87f4e0003ede11dc62eecfabc5d380f36645"
+      url "https://cdn.broadwayinc.com/get/ddbd/0.3.0/ddbd-0.3.0-macos-x86_64.tar.gz"
+      sha256 "7ba338f9853fb0161010986c84c4dc40e979a43a85fc190dba1c8d0510b86906"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.broadwayinc.com/get/ddbd/0.2.0/ddbd-0.2.0-linux-aarch64.tar.gz"
-      sha256 "486ca722fcc803ea885339c793ea73c12c65251ab3ae5c037e317dc91bac1995"
+      url "https://cdn.broadwayinc.com/get/ddbd/0.3.0/ddbd-0.3.0-linux-aarch64.tar.gz"
+      sha256 "560979dc26b27d0999afa3e52af9d6c0a0e736977816039f066f157338ae59ad"
     end
     on_intel do
-      url "https://cdn.broadwayinc.com/get/ddbd/0.2.0/ddbd-0.2.0-linux-x86_64.tar.gz"
-      sha256 "e530a28cbeba56ad554ff0fe66b3389c3a5c9220cd3d396771f85eb059bb70b0"
+      url "https://cdn.broadwayinc.com/get/ddbd/0.3.0/ddbd-0.3.0-linux-x86_64.tar.gz"
+      sha256 "51737fa27bb8f658df6fd984d377b876b9aed3198c9ba04bc840b0a6aed31fde"
     end
   end
 
